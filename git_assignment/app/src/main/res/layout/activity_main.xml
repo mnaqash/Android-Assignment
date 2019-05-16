@@ -8,28 +8,26 @@
     tools:context=".MainActivity">
 
     <TextView
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_width=”wrap_content”
-    android:layout_height=”wrap_content”
-    android:layout_gravity=”center”
-    android:text=”@string/click_start_button” />
+    android:text="hahahhahhah" />
 
     <ProgressBar
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:id=”@+id/progressBar”
-    style=”?android:attr/progressBarStyleHorizontal”
-    android:layout_width=”match_parent”
-    android:layout_height=”wrap_content”
-    android:layout_margin=”10dp”
-    android:indeterminate=”false”
-    android:max=”10" />
+android:id="@+id/progressBar"
+
+style="?android:attr/progressBarStyleHorizontal"
+
+        android:layout_width="match_parent"
+
+    android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+
+
+    android:max="10" />
 
     <Button
+        android:id="@+id/buttonStart"
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:id=”@+id/buttonStart”
-    android:layout_width=”wrap_content”
-    android:layout_height=”wrap_content”
-    android:text=”@string/start” />
+    android:layout_height="wrap_content"
+    android:text="start"/>
 </LinearLayout>
